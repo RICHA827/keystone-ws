@@ -1,0 +1,20 @@
+{
+  "name": "keystone-ws",
+  "version": "1.0.0",
+  "main": "keystone.js",
+  "scripts": {
+    "start": "node keystone.js",
+    "dev": "keystone dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@keystone-6/auth": "^8.0.0",
+    "@keystone-6/core": "^6.1.0",
+    "express": "^4.19.2",
+    "typescript": "^5.5.3",
+    "ws": "^8.18.0"
+  }
+}
