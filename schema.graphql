@@ -105,7 +105,6 @@ type Mutation {
   updateUsers(data: [UserUpdateArgs!]!): [User]
   deleteUser(where: UserWhereUniqueInput!): User
   deleteUsers(where: [UserWhereUniqueInput!]!): [User]
-  endSession: Boolean!
 }
 
 type Query {
@@ -113,6 +112,7 @@ type Query {
   user(where: UserWhereUniqueInput!): User
   usersCount(where: UserWhereInput! = {}): Int
   keystone: KeystoneMeta!
+  hello: String
 }
 
 type KeystoneMeta {

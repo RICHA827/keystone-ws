@@ -17,7 +17,7 @@
       let ws;
 
       document.getElementById("connect").addEventListener("click", () => {
-        ws = new WebSocket("ws://localhost:3000");
+        ws = new WebSocket("ws://localhost:8000");
 
         ws.onopen = () => {
           log("Connected to WebSocket server");
